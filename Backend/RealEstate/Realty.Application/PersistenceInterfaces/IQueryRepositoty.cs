@@ -2,5 +2,5 @@
 
 internal interface IQueryRepositoty<TEntity>
 {
-    IQueryable<TEntity> Query { get; }
+    IQueryable<TEntity> Data { get; }
 }
